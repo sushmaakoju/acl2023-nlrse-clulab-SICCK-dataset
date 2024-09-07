@@ -2,9 +2,9 @@
 Code and dataset for Synthetic Dataset for Evaluating Complex Compositional Knowledge for Natural Language Inference
 
 ## Dataset : Sentences Involving Complex Compositional Knowledge (SICCK)
-SICCK data: <a href="https://github.com/clulab/releases/tree/master/acl2023-nlrse-sicck/data/SICCK"> Sentences Involving Complex Compositional Knowledge (SICCK) </a>
+SICCK data: <a href="https://github.com/sushmaakoju/acl2023-nlrse-clulab-SICCK-dataset/tree/main/data/SICCK"> Sentences Involving Complex Compositional Knowledge (SICCK) </a>
 
-- Selected 15 examples from SICK dataset and corresponding analysis for compositionality: <a href="https://github.com/clulab/releases/tree/master/acl2023-nlrse-sicck/data/original-sick-examples"> sick-15 </a>
+- Selected 15 examples from SICK dataset and corresponding analysis for compositionality: <a href="https://github.com/sushmaakoju/acl2023-nlrse-clulab-SICCK-dataset/tree/main/data/original-sick-examples"> sick-15 </a>
 
 ## License 
 Derived from <a href="https://marcobaroni.org/composes/sick.html">SICK Dataset</a>
@@ -13,6 +13,6 @@ Derived from <a href="https://marcobaroni.org/composes/sick.html">SICK Dataset</
 
 ## Code
 The code was run on two different settings: Google Colab using python and Scala respectively. 
-- <a href="https://github.com/clulab/releases/tree/sushma/acl2023-nlrse-sicck/code">Colab Notebooks Code for SICCK dataset generation, annotations, zero-shot evaluation and finetuning of NLI models and evaluation</a>. 
-- The <a href="https://github.com/clulab/releases/tree/sushma/acl2023-nlrse-sicck/code/generating-modified-sentences/natlog"> scala code for generating modified object parts of sentences using Clulab Processors software </a>.
+- <a href="https://github.com/sushmaakoju/acl2023-nlrse-clulab-SICCK-dataset/tree/main/code">Colab Notebooks Code for SICCK dataset generation, annotations, zero-shot evaluation and finetuning of NLI models and evaluation</a>. 
+- The <a href="https://github.com/sushmaakoju/acl2023-nlrse-clulab-SICCK-dataset/tree/main/code/generating-modified-sentences/natlog"> scala code for generating modified object parts of sentences using Clulab Processors software </a>.
 

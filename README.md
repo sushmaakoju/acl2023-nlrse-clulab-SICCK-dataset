@@ -5,9 +5,13 @@ This work is under supervision of Prof. Mihai Surdeanu, Computational Language U
 The original repository can be found @ <a href="https://github.com/sushmaakoju/natural-logic/commits/main?after=396e926489ddc9eae51e7cb2cb4ef5270a7f5021+69&branch=main&qualified_name=refs%2Fheads%2Fmain">sushmaakoju/natural-logic Nov 2022 to Jul 2023.</a>.
 
 ## Dataset : Sentences Involving Complex Compositional Knowledge (SICCK)
-SICCK data: <a href="https://github.com/clulab/releases/tree/master/acl2023-nlrse-sicck/data/SICCK"> Sentences Involving Complex Compositional Knowledge (SICCK) </a>
+SICCK data: <a href="https://github.com/sushmaakoju/acl2023-nlrse-clulab-SICCK-dataset/tree/main/data/SICCK"> Sentences Involving Complex Compositional Knowledge (SICCK) @ Clulab </a> 
 
-- Selected 15 examples from SICK dataset and corresponding analysis for compositionality: <a href="https://github.com/clulab/releases/tree/master/acl2023-nlrse-sicck/data/original-sick-examples"> sick-15 </a>
+or
+
+SICCK data: <a href="https://github.com/sushmaakoju/releases-clulab-SICCK/tree/main/data/SICCK"> Sentences Involving Complex Compositional Knowledge (SICCK)</a>
+
+- Selected 15 examples from SICK dataset and corresponding analysis for compositionality: <a href="https://github.com/sushmaakoju/releases-clulab-SICCK/tree/main/data/original-sick-examples"> sick-15 </a>
 
 ## License 
 Derived from <a href="https://marcobaroni.org/composes/sick.html">SICK Dataset</a>
@@ -20,16 +24,22 @@ The results in this version differ from the results in the published paper due t
 **Author's note:** I have received inquiries if entire data analysis until before fine tuning was done by me. The data analysis was done by me, out of interest in understanding the data and I conducted this involuntarily by applying my Data Science and Analysis skills and my interest for understanding the language and the data. The data analyses include:
 
 - Programmatic data analysis on the data and annotator analysis and post-hoc analysis.
-- Manual data analyses on the linguistic and lexical analysis such as <a href="https://github.com/sushmaakoju/clulab-releases/blob/master/acl2023-nlrse-sicck/data/original-sick-examples/sick-data-compositionality.csv">Compositional aspects of SICK dataset</a>.
+- Manual data analyses on the linguistic and lexical analysis such as <a href="https://github.com/sushmaakoju/releases-clulab-SICCK/blob/main/data/original-sick-examples/sick-data-compositionality.csv">Compositional aspects of SICK dataset</a>.
 
+## Natural Logic Group
+
+The Natural Logic Group was created by Prof. Mihai Surdeanu in Aug 2022.
+The goal was to discuss and study Natual Logic and exchange the information about Neurosymbolic methods to evaluate Language models. We were a group of 5 members. I organized and maintained details of group meetings as well as followed up study and learning sessions among whoever were interested. We studied algorithmic alignment and various aspects of logic. I presented some topics in Logic, during Aug-Nov 2022: <a href="https://github.com/sushmaakoju/research-experience/tree/main/university-of-arizona#natural-logic-group-presentations-aug-2022---nov-2022">Natural Logic Group Presentations Aug 2022 - Nov 2022</a>.
+
+- This work is primarily based on this study led by me, under the supervision of Prof. Mihai Surdeanu: - <a href="https://github.com/sushmaakoju/research-experience/blob/main/university-of-arizona/Natural-logic-group-meeting.pdf"> Natural Logic Meeting minutes and weekly task/study statuses</a>. For more details, please contact: sushmaakoju@arizona.edu.
 
 ## Code
 
 Author: sushmaakoju@arizona.edu
 
 The code was run on two different settings: Google Colab using python and Scala respectively. 
-- <a href="https://github.com/clulab/releases/tree/sushma/acl2023-nlrse-sicck/code">Colab Notebooks Code for SICCK dataset generation, annotations, zero-shot evaluation and finetuning of NLI models and evaluation</a>. 
-- The <a href="https://github.com/clulab/releases/tree/sushma/acl2023-nlrse-sicck/code/generating-modified-sentences/natlog"> scala code for generating modified object parts of sentences using Clulab Processors software </a>.
+- <a href="https://github.com/sushmaakoju/releases-clulab-SICCK/tree/main/code">Colab Notebooks Code for SICCK dataset generation, annotations, zero-shot evaluation and finetuning of NLI models and evaluation</a>. 
+- The <a href="https://github.com/sushmaakoju/releases-clulab-SICCK/tree/main/code/generating-modified-sentences/natlog"> scala code for generating modified object parts of sentences using Clulab Processors software </a>.
 
 ### Acknowledgements
 This work is under supervision of Prof. Mihai Surdeanu, University of Arizona. 
